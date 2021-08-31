@@ -1,0 +1,5 @@
+2021/8/31
+
+Today, I uploaded colorconsole99 on GitHub for the first time, version 1.0.0 .
+This is my first self-made library, but it is not ready to be released on pypi  :)
+You can copy the master file directly to the python Library Directory.
