@@ -6,3 +6,9 @@
 __It's completely free__
 
 *Thank You!*
+
+# usage
+
+You can check help.py to see how the library is used. We will launch special help documents in the future
+
+### Please run initsystem method!
