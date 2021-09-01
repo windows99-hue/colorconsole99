@@ -16,7 +16,7 @@ class Colorconsole99error(Exception):
 
 
 
-#创建主类
+
 
 def initsystem():
     global initsystem
