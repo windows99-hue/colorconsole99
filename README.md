@@ -12,3 +12,4 @@ __It's completely free__
 You can check help.py to see how the library is used. We will launch special help documents in the future
 
 ### Please run initsystem method!
+### Installation is not supported now (1.0.0 or 1.0.0.1). Please copy the main file colorconsole99.py directly to the python Library Directory.
