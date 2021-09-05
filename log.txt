@@ -7,3 +7,6 @@ You can copy the master file directly to the python Library Directory.
 Today, I canceled the complex colors class, which can be called directly without executing "colorconsole99. Colors. [XXX]"
 This is only a beta version
 ----------------------
+2021/9/5
+Today, I released the colorconsole99 Python library to pypi. You can directly PIP install colorconsole99, which is very simple!
+----------------------
