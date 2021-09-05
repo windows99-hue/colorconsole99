@@ -16,4 +16,12 @@ You can check help.py to see how the library is used. We will launch special hel
 
 __pip install colorconsole99__
 
+# Faster method:
 
+__from colorconsole99 import colors__
+
+Your code
+
+colors.xxx
+
+Your code
