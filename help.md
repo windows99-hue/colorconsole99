@@ -4,7 +4,8 @@
 
 First of all, colorconsole99 is a command-line beautification program that can be run on Python 3 +. It can add a similar "<font color = #0099ff size = 4 face ="blod "> [+] </font >OK" before your command-line output. The following is the effect display diagram
 
-![image-20210906174615747](E:\99自制库\colorconsole99\1.0.0\images-md\image-20210906174615747.png)
+![image-20210906174615747](https://user-images.githubusercontent.com/77145993/132200373-fe106698-a109-44c6-b2d5-eb585ec8d66f.png)
+
 
 Their corresponding call code is like this
 
