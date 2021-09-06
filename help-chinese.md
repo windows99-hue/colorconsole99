@@ -6,7 +6,8 @@
 
 
 
-![image-20210906170853664 - 副本](E:\99自制库\colorconsole99\1.0.0\images-md\image-20210906170853664 - 副本.png)
+![image-20210906170853664 - 副本](https://user-images.githubusercontent.com/77145993/132200550-26a32b8a-c08e-43ba-9a7b-c125303285f2.png)
+
 
 他们对应的召唤代码是这样
 
