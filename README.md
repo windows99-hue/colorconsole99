@@ -20,8 +20,11 @@ __pip install colorconsole99__
 
 __from colorconsole99 import colors__
 
+```python
 Your code
 
 colors.xxx
 
 Your code
+```
+
