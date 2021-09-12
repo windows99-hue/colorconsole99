@@ -8,8 +8,12 @@ Today, I canceled the complex colors class, which can be called directly without
 This is only a beta version
 ----------------------
 2021/9/5
-Today, I released the colorconsole99 Python library to pypi. You can directly PIP install colorconsole99, which is very simple!
+Today, I released the colorconsole99 Python library to pypi. You can directly pip install colorconsole99, which is very simple!
 ----------------------
 2021/9/10
 Today,update README.md
+----------------------
+2021/9/12
+Today is an exciting day. Just yesterday, I used my own library, but I found that I couldn't install it because there was a major bug in my program. 
+Today, I fixed it and everything was normal! You can use pip to install. It also has a new version number: 1.0.1.1
 ----------------------
