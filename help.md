@@ -1,8 +1,8 @@
-# Hello everyone, here is the use document of colorconsole99
+# Hello everyone, here is the use document of clc99
 
-## Next, I will introduce you how to use colorconsole 99 in detail:)
+## Next, I will introduce you how to use clc 99 in detail:)
 
-First of all, colorconsole99 is a command-line beautification program that can be run on Python 3 +. It can add a similar "<font color = #0099ff size = 4 face ="blod "> [+] </font >OK" before your command-line output. The following is the effect display diagram
+First of all, clc99 is a command-line beautification program that can be run on Python 3 +. It can add a similar "<font color = #0099ff size = 4 face ="blod "> [+] </font >OK" before your command-line output. The following is the effect display diagram
 
 ![image-20210906174615747](https://user-images.githubusercontent.com/77145993/132200373-fe106698-a109-44c6-b2d5-eb585ec8d66f.png)
 
@@ -10,39 +10,39 @@ First of all, colorconsole99 is a command-line beautification program that can b
 Their corresponding call code is like this
 
 ```python
-from colorconsole99 import *
-colors.initsystem()
-colors.print_status('status')
-colors.print_good('ok!')
-colors.print_error('error!')
-colors.print_warning('warning!')
-colors.print_finish('finish')
-colors.print_os('os ok!')
-colors.print_notrun('This is a comment')
-colors.print_e('error!')
-colors.print_fileok('file ok!')
-colors.print_filerror('file error!')
-colors.print_time()
-colors.print_music('play 123.mp3')
-colors.print_video('play 1234.mp4')
-colors.print_ok('OK!')
-colors.print_over('system over;)')
-colors.print_admin('Successfully obtained administrator privileges!')
-#colors.input_str('input:')
+import clc99
+clc99.initsystem()
+clc99.print_status('status')
+clc99.print_good('ok!')
+clc99.print_error('error!')
+clc99.print_warning('warning!')
+clc99.print_finish('finish')
+clc99.print_os('os ok!')
+clc99.print_notrun('This is a comment')
+clc99.print_e('error!')
+clc99.print_fileok('file ok!')
+clc99.print_filerror('file error!')
+clc99.print_time()
+clc99.print_music('play 123.mp3')
+clc99.print_video('play 1234.mp4')
+clc99.print_ok('OK!')
+clc99.print_over('system over;)')
+clc99.print_admin('Successfully obtained administrator privileges!')
+#clc99.input_str('input:')
 print("'input_str'Parameters can return the user's input, which is not demonstrated here")
-colors.print_dirok('dirok')
-colors.print_direrror('direrror')
-colors.print_comok('The equipment is normal！')
-colors.print_comerror('equipment error！')
-colors.print_uquestion('Do you know Python？')
-colors.print_cquestion('There is a problem with the procedure！')
+clc99.print_dirok('dirok')
+clc99.print_direrror('direrror')
+clc99.print_comok('The equipment is normal！')
+clc99.print_comerror('equipment error！')
+clc99.print_uquestion('Do you know Python？')
+clc99.print_cquestion('There is a problem with the procedure！')
 def zidingyicolor(str):
-    user_c = colors.user_color('[b]','YELLOW')
+    user_c = clc99.user_color('[b]','YELLOW')
     print(user_c+str)
 zidingyicolor('Custom symbols')
 ```
 
-# <font color = #ff0000 size = 5 face = "bold" > attention! When you use colorconsole 99, be sure to execute the initsystem method</font>
+# <font color = #ff0000 size = 5 face = "bold" > attention! When you use clc99, be sure to execute the initsystem method</font>
 
 # Method introduction
 
@@ -106,7 +106,7 @@ This method can generate the prompt status symbols <font color = #f00 size = 3 f
 print_fileok(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #0099ff size = 3 face = "bold" > [。]</Font >, full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #0099ff size = 3 face = "bold" > [.]</Font >, full can set whether all text colors are colored
 
 ```python
 print_filerror(str,full=False)
