@@ -9,17 +9,15 @@ initsystem = False
 
 #创建错误类
 class Colorconsole99error(Exception):
-    def __init__(self, value):
+    def __init__( value):
             self.value = value
     def __str__(self):
         return repr(self.value)
 
 
 
-
-
+#创建主类
 def initsystem():
-    global initsystem
     v_system = platform.system()
     if v_system != 'Windows':
         #print('other')
@@ -81,10 +79,10 @@ def print_e(str):
     print(Fore.RED+'[@]'+str+Fore.RESET)
 def print_fileok(str,full=False):
     if full:
-        print(Fore.BLUE+'[。]',end='')
+        print(Fore.BLUE+'[.]',end='')
         print(str)
     else:
-        print(Fore.BLUE+'[。]'+Fore.RESET,end='')
+        print(Fore.BLUE+'[.]'+Fore.RESET,end='')
         print(str)
 def print_filerror(str,full=False):
     if full:
@@ -198,7 +196,7 @@ def print_cquestion(str,full=False):
     else:
         print(Fore.RED+'[?]'+Fore.RESET,end='')
         print(str)
-def print_syscom():
+def print_syscom(self):
     if full:
         print(Fore.CYAN+'[sys_command]',end='')
         print(str)
@@ -230,4 +228,3 @@ def user_color(title,color,full=False):
         return colorinfo+title
     else:
         return colorinfo+title+Fore.RESET
-            
