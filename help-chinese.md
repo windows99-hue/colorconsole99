@@ -188,7 +188,7 @@ print_uquestion(str,full=False)
 这个方法可以产生提示状态的符号<font color=#FF8800 size=3 face="黑体">[?]</font>,full可以设置文字颜色是否全部着色
 
 ```python
-print_music(str,full=False)
+print_cquestion(str,full=False)
 ```
 
 这个方法可以产生提示状态的符号<font color=#F00 size=3 face="黑体">[?]</font>,full可以设置文字颜色是否全部着色
