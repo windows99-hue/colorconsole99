@@ -80,10 +80,10 @@ class Colors():
         print(Fore.RED+'[@]'+str+Fore.RESET)
     def print_fileok(self,str,full=False):
         if full:
-            print(Fore.BLUE+'[。]',end='')
+            print(Fore.BLUE+'[.]',end='')
             print(str)
         else:
-            print(Fore.BLUE+'[。]'+Fore.RESET,end='')
+            print(Fore.BLUE+'[.]'+Fore.RESET,end='')
             print(str)
     def print_filerror(self,str,full=False):
         if full:
