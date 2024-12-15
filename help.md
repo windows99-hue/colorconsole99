@@ -187,7 +187,7 @@ print_uquestion(str,full=False)
 This method can generate a prompt status symbol <font color = #ff8800 size = 3 face = "bold" > [?]</Font >, full can set whether all text colors are colored
 
 ```python
-print_music(str,full=False)
+print_cquestion(str,full=False)
 ```
 
 This method can generate a prompt status symbol <font color = #f00 size = 3 face = "bold" > [?]</Font >, full can set whether all text colors are colored
