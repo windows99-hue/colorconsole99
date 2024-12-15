@@ -4,7 +4,7 @@
 
 ## 介绍
 
-这是一个用于命令行美化的python库，他可以实现像`Metasploit`一样的命令行显示。为了文档的简洁性，请阅读[帮助文档]([clc99/help-chinese.md at master · windows99-hue/clc99](https://github.com/windows99-hue/clc99/blob/master/help-chinese.md))
+这是一个用于命令行美化的python库，他可以实现像`Metasploit`一样的命令行显示。为了文档的简洁性，请阅读[帮助文档](https://github.com/windows99-hue/clc99/blob/master/help-chinese.md)
 
 # 安装
 
@@ -18,7 +18,7 @@ pip install clc99
 
 ## 使用
 
-详情请见[帮助文档]([clc99/help-chinese.md at master · windows99-hue/clc99](https://github.com/windows99-hue/clc99/blob/master/help-chinese.md))
+详情请见[帮助文档](https://github.com/windows99-hue/clc99/blob/master/help-chinese.md)
 
 ## 在最后
 
