@@ -1,30 +1,27 @@
-# colorconsole99
-## This is my homemade Python command line library.
-## It is used to display various prompt symbols. For details, run help.py
-## I open source it on GitHub. I hope you can maintain and improve my code, and you can use it for free.
+# clc99
 
-__It's completely free__
+> 三年后，我再次更新了它。。。。
 
-*Thank You!*
+## 介绍
 
-# usage
+这是一个用于命令行美化的python库，他可以实现像`Metasploit`一样的命令行显示。为了文档的简洁性，请阅读[帮助文档]([clc99/help-chinese.md at master · windows99-hue/clc99](https://github.com/windows99-hue/clc99/blob/master/help-chinese.md))
 
-You can check help.py to see how the library is used. We will launch special help documents in the future
+# 安装
 
-### Please run initsystem method!
-# I have published colorconsole99 to pypi. You can install it directly with the following command:
+在命令行下执行
 
-__pip install colorconsole99__
+~~~bash
+pip install clc99
+~~~
 
-# Faster method:
+这将会为您安装 `clc99`
 
-__from colorconsole99 import colors__
+## 使用
 
-```python
-Your code
+详情请见[帮助文档]([clc99/help-chinese.md at master · windows99-hue/clc99](https://github.com/windows99-hue/clc99/blob/master/help-chinese.md))
 
-colors.xxx
+## 在最后
 
-Your code
-```
+我在GitHub上开源了它。我希望您能维护和改进我的代码，感激不尽。
 
+这次更新，也算是完成了我小时候的一个愿望，而我将会带着这份礼物，继续向前。。。。。
