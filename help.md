@@ -55,46 +55,46 @@ initsystem()
 This method is used to initialize symbols and must be executed first!
 
 ```python
-print_status(str,full=False)
+print_status(str,full=False,end="\n")
 ```
 
-This method can generate a prompt status symbol <font color = #0099ff size = 3 face = "bold" > [*] </font >, and full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #0099ff size = 3 face = "bold" > [*] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_good(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #0099ff size = 3 face = "bold" > [+] </font >, and ful can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #0099ff size = 3 face = "bold" > [+] </font >, and ful can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_error(str,full=False)
 ```
 
-This method can generate prompt status symbols <font color = #ff0000 size = 3 face = "bold" > [-] </font >, and full can set whether all text colors are colored
+This method can generate prompt status symbols <font color = #ff0000 size = 3 face = "bold" > [-] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_warning(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #ff8800 size = 3 face = "bold" > [!]</Font >, full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #ff8800 size = 3 face = "bold" > [!]</Font >, full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_finish(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #00ff00 size = 3 face = "bold" > [√] </font >, and full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #00ff00 size = 3 face = "bold" > [√] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_os(str,full=False)
 ```
 
-This method can generate prompt status symbols <font color = #0099ff size = 3 face = "bold" > [$] </font >, and full can set whether all text colors are colored
+This method can generate prompt status symbols <font color = #0099ff size = 3 face = "bold" > [$] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_notrun(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #800080 size = 3 face = "bold" > [#] </font >, and the full method can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #800080 size = 3 face = "bold" > [#] </font >, and the full method can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_e(str)
@@ -106,13 +106,13 @@ This method can generate the prompt status symbols <font color = #f00 size = 3 f
 print_fileok(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #0099ff size = 3 face = "bold" > [.]</Font >, full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #0099ff size = 3 face = "bold" > [.]</Font >, full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_filerror(str,full=False)
 ```
 
-This method can generate prompt status symbols <font color = #f00 size = 3 face = "bold" > [.] </font >, and full can set whether all text colors are colored
+This method can generate prompt status symbols <font color = #f00 size = 3 face = "bold" > [.] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_time(str,full=False)
@@ -124,73 +124,73 @@ This method can generate prompt status symbols <font color = #0099ff size = 3 fa
 print_music(str,full=False)
 ```
 
-This method can generate prompt symbols <font color = #0f0 size = 3 face = "bold" > [music] </font >, and full can set whether all text colors are colored
+This method can generate prompt symbols <font color = #0f0 size = 3 face = "bold" > [music] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_video(str,full=False)
 ```
 
-This method can generate prompt symbols <font color = #0f0 size = 3 face = "bold" > [Video] </font >, and full can set whether all text colors are colored
+This method can generate prompt symbols <font color = #0f0 size = 3 face = "bold" > [Video] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_ok(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #00f size = 3 face = "bold" > [OK] </font >, and full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #00f size = 3 face = "bold" > [OK] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_over(str,full=False)
 ```
 
-This method can generate prompt status symbols <font color = #999 size = 3 face = "bold" > [over] </font >, and full can set whether all text colors are colored
+This method can generate prompt status symbols <font color = #999 size = 3 face = "bold" > [over] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_music(str,full=False)
 ```
 
-This method can generate prompt status symbols <font color = #0099ff size = 3 face = "bold" > [Admin] </font >, and full can set whether all text colors are colored
+This method can generate prompt status symbols <font color = #0099ff size = 3 face = "bold" > [Admin] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 input_str(str,full=False)
 ```
 
-This method can get the user's input <font color = #999 size = 3 face = "bold" > [input] </font >, and full can set whether all text colors are colored
+This method can get the user's input <font color = #999 size = 3 face = "bold" > [input] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_dirok(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #0f0 size = 3 face = "bold" > [/] </font >, and full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #0f0 size = 3 face = "bold" > [/] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_direrror(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #f00 size = 3 face = "bold" > [/] </font >, and full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #f00 size = 3 face = "bold" > [/] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_comok(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #0f0 size = 3 face = "bold" > [C] </font >, and full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #0f0 size = 3 face = "bold" > [C] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_comerror(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #f00 size = 3 face = "bold" > [C] </font >, and full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #f00 size = 3 face = "bold" > [C] </font >, and full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_uquestion(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #ff8800 size = 3 face = "bold" > [?]</Font >, full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #ff8800 size = 3 face = "bold" > [?]</Font >, full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 print_cquestion(str,full=False)
 ```
 
-This method can generate a prompt status symbol <font color = #f00 size = 3 face = "bold" > [?]</Font >, full can set whether all text colors are colored
+This method can generate a prompt status symbol <font color = #f00 size = 3 face = "bold" > [?]</Font >, full can set whether all text colors are colored, end can control the line breaks of the print function
 
 ```python
 user_color(title,color,full=False)
