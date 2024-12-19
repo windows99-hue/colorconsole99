@@ -25,3 +25,7 @@ Today, I fixed it and everything was normal! You can use pip to install. It also
 ## 2024/12/15
 
 Today, I have made up my mind to refactor colorconsole99. I have changed the name of this library to clc99, which is more convenient. I have also removed unnecessary libraries and simplified the program structure. I will also upload it again, not only on GitHub, but clc99 will also work on Pypi!
+
+## 2024/12/19
+
+Today, I added the 'end' parameter to clc99 and also refactored the code structure of the library
