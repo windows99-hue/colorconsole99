@@ -56,43 +56,43 @@ initsystem()
 这个方法用来初始化符号，必须优先执行！
 
 ```python
-print_status(str,full=False)
+print_status(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#0099ff size=3 face="黑体">[*]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_good(str,full=False)
+print_good(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#0099ff size=3 face="黑体">[+]</font>,ful可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_error(str,full=False)
+print_error(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#FF0000 size=3 face="黑体">[-]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_warning(str,full=False)
+print_warning(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#FF8800 size=3 face="黑体">[!]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_finish(str,full=False)
+print_finish(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#00FF00 size=3 face="黑体">[√]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_os(str,full=False)
+print_os(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#0099ff size=3 face="黑体">[$]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_notrun(str,full=False)
+print_notrun(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color= #800080 size=3 face="黑体">[#]</font>,full方法可以设置文字颜色是否全部着色 ，end参数可以设置print函数的换行符
@@ -104,19 +104,19 @@ print_e(str)
 这个方法可以产生提示状态的符号<font color=#F00 size=3 face="黑体">[@]</font>全部着色
 
 ```python
-print_fileok(str,full=False)
+print_fileok(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#0099ff size=3 face="黑体">[.]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_filerror(str,full=False)
+print_filerror(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#F00 size=3 face="黑体">[.]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_time(str,full=False)
+print_time(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#0099ff size=3 face="黑体">[TIME]</font>shijiangeshi可以设置时间格式，遵循time模块,title可以设置您要显示的文字（str）的位置，有front (前)    before(后)  middle(两边) ,full可以设置文字颜色是否全部着色
@@ -128,34 +128,34 @@ print_music(str,full=False)
 这个方法可以产生提示状态的符号<font color=#0F0 size=3 face="黑体">[music]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_video(str,full=False)
+print_video(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#0F0 size=3 face="黑体">[video]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_ok(str,full=False)
+print_ok(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#00F size=3 face="黑体">[OK]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_over(str,full=False)
+print_over(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#999 size=3 face="黑体">[over]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_music(str,full=False)
+print_music(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#0099ff size=3 face="黑体">[Admin]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-input_str(str,full=False)
+input_str(str,full=False,end="\n")
 ```
 
-这个方法可以获取用户的输入<font color=#999 size=3 face="黑体">[input]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
+这个方法可以获取用户的输入<font color=#999 size=3 face="黑体">[input]</font>,full可以设置文字颜色是否全部着色
 
 ```python
 print_dirok(str,full=False)
@@ -164,37 +164,37 @@ print_dirok(str,full=False)
 这个方法可以产生提示状态的符号<font color=#0F0 size=3 face="黑体">[/]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_direrror(str,full=False)
+print_direrror(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#F00 size=3 face="黑体">[/]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_comok(str,full=False)
+print_comok(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#0F0 size=3 face="黑体">[C]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_comerror(str,full=False)
+print_comerror(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#F00 size=3 face="黑体">[C]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_uquestion(str,full=False)
+print_uquestion(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#FF8800 size=3 face="黑体">[?]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-print_cquestion(str,full=False)
+print_cquestion(str,full=False,end="\n")
 ```
 
 这个方法可以产生提示状态的符号<font color=#F00 size=3 face="黑体">[?]</font>,full可以设置文字颜色是否全部着色，end参数可以设置print函数的换行符
 
 ```python
-user_color(title,color,full=False)
+user_color(title,color,full=False,end="\n")
 ```
 
 这个方法可以产生自定义提示状态的符号,full可以设置文字颜色是否全部着色,如下
